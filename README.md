@@ -40,3 +40,57 @@ Packages used:
 
 - `requests`
 
+### 3. Add Your API Key
+Create a file named `api.txt` inside the `Resources` folder and paste your [Prodia API](https://docs.prodia.com/) key into it.
+
+```bash
+Waveform/
+└── Resources/
+    └── api.txt
+```
+
+### 4. Run the App
+
+```bash
+python main.py
+```
+
+---
+
+### 🗂️ Project Structure
+
+```bash
+Waveform/
+├── img_generator/             # Generated images will be saved here
+├── Resources/
+│   ├── waveform_logo-light.png
+│   ├── waveform_logo-dark.png
+│   ├── canvas_image-light.png
+│   ├── canvas_image-dark.png
+│   └── api.txt                # Your API key goes here
+├── main.py                    # Main application script
+└── requirements.py            # Installs required packages
+```
+
+---
+
+### ✏️ Customization
+To use a different API:
+
+1. Open `main.py`
+
+2. Locate the `generate()` function inside `start_generate()`
+
+3. Replace the request URL, payload, and headers to match your new API
+
+---
+
+### 📷 Screenshot
+
+<img width="1132" height="668" alt="image" src="https://github.com/user-attachments/assets/27173789-ae48-4909-89f5-82fbf9e02ae0" />
+
+---
+
+Built by [jrdevadattan](https://github.com/jrdevadattan)
+
+Class 12 CBSE Computer Science Project
